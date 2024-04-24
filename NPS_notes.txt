@@ -1,0 +1,23 @@
+# From Emily's notes 4/24/2024
+# *trying Erin's recommendations - running a test of two samples with updated NF doc
+
+# From the file called main.nf changed the first few lines to 
+# saarman/VectorDetective
+
+# First I will copy the correct input file
+# [u6036559@notch320:VectorDetective]$ 
+cat /uufs/chpc.utah.edu/common/home/u1055819/github/uphl/sample_sheet_April242024.csv > sample_sheet.csv
+
+# mk output directory
+mkdir /uufs/chpc.utah.edu/common/home/saarman-group1/nps_VectorDetective 
+chmod -R g+w /uufs/chpc.utah.edu/common/home/saarman-group1/nps_VectorDetective
+
+# cd to scratch
+cd /scratch/general/vast/u6036559
+
+module load nextflow
+module load apptainer
+module load singularity
+#module spider blast
+
+nextflow run saarman/VectorDetective -profile singularity --input /uufs/chpc.utah.edu/common/home/u6036559/git/VectorDetective/sample_sheet.csv --outdir /uufs/chpc.utah.edu/common/home/saarman-group1/nps_VectorDetective
