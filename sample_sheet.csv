@@ -1,3 +1,9 @@
 sample,fastq_1,fastq_2
 B002f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B002f_S1_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B002f_S1_R2_001.fastq.gz
 B013f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B013f_S2_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B013f_S2_R2_001.fastq.gz
+B015f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B015f_S3_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B015f_S3_R2_001.fastq.gz
+B016f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B016f_S4_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B016f_S4_R2_001.fastq.gz
+B020f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B020f_S5_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B020f_S5_R2_001.fastq.gz
+B021f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B021f_S6_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B021f_S6_R2_001.fastq.gz
+B022f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B022f_S7_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B022f_S7_R2_001.fastq.gz
+B023f,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B023f_S8_R1_001.fastq.gz,/uufs/chpc.utah.edu/common/home/saarman-group1/uphlfiles/MAD_21_B023f_S8_R2_001.fastq.gz
