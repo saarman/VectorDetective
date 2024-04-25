@@ -38,7 +38,7 @@ Each row represents a fastq file (single-end) or a pair of fastq files (paired e
 Now, you can run the pipeline using:
 
 ```bash
-nextflow run emcal23/VectorDetective \
+nextflow run saarman/VectorDetective \
    -profile <docker/singularity/.../institute> \
    --input samplesheet.csv \
    --blast_db <path/to/blast/database/> \ #optional
