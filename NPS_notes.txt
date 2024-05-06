@@ -63,7 +63,7 @@ gzip -cd ./B016f_*Ace2*.fastq.gz | head -2000 | awk '{if(NR%4==1) {printf(">%s\n
 # ok now loop
 for SAMPLE in `echo B002f B013f B015f B016f B020f B021f B022f B023f`; do
   echo $SAMPLE
-  gzip -cd ./${SAMPLE}_*Ace2*.fastq.gz | head -2000 | awk '{if(NR%4==1) {printf(">%s\n",substr($0,2));} else if(NR%4==2) print;}' > ./${SAMPLE}_Ace2_head500.fa 
+  gzip -cd ./${SAMPLE}_*Ace2*.fastq.gz | head -1000 | awk '{if(NR%4==1) {printf(">%s\n",substr($0,2));} else if(NR%4==2) print;}' >> ./${SAMPLE}_Ace2_head.fa 
 done
 
 
